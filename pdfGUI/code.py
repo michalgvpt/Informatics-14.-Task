@@ -8,7 +8,7 @@ window = tk.Tk()
 canvas = tk.Canvas(window, width=600, height=300)
 canvas.grid(columnspan=3, rowspan=3)
 
-logo = Image.open('tkinter/pdfGUI/logo.png')
+logo = Image.open('pdfGUI/logo.png')
 logo = ImageTk.PhotoImage(logo)
 logo_label = tk.Label(image=logo)
 logo_label.image = logo
